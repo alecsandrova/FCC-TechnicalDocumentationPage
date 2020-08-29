@@ -1,0 +1,95 @@
+html{
+	background-color:#121212;
+	
+}
+p{
+	color:white;
+	font-size:20px;
+	font-family: 'Lato', sans-serif;
+}
+code{
+	color:white;
+	background-color:hsl(0, 0%, 21%);
+	padding:5px;
+}
+li{
+	color:white;
+	font-size:20px;
+	font-family: 'Lato', sans-serif;
+}
+
+header{
+	color:#03DAC6;
+	font-size:30px;
+	margin-left:1vw;
+	margin-top:2vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+	color:#BB86FC;
+	padding: 10px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+	border-bottom:solid;
+	border-color:#BB86FC;
+	font-family: 'Lato', sans-serif;
+	
+	
+}
+
+a:hover{
+	color:white;
+}
+
+#navbar{
+	background-color:hsl(0, 0%, 14%);
+	position: fixed;
+	top:0;
+	left:0;
+	width:17vw;
+	height:100%;
+	overflow-x: hidden;
+	border-right:solid;
+	border-color:#BB86FC;
+	
+	
+}
+#main-doc{
+	margin-left:17vw;
+	
+}
+
+@media screen and (max-width: 800px) {
+	#navbar {
+		position: absolute;
+		top:0;
+		width:100%;
+		max-height:20vw;
+	}
+	#main-doc{
+		margin-left:0;
+		margin-top:20vw;
+	}
+	
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background-color:hsl(0, 0%, 14%) ;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #BB86FC;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(0, 0%, 21%);
+}
